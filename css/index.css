@@ -46,7 +46,7 @@ body {
 	background: #fff;
 	padding: 0;
 	/*color: #eee;*/
-	font-size: 20px;
+	font-size:  0.42rem;;
 	text-align: center;
 	font-weight: bold;
 }
@@ -107,7 +107,6 @@ body {
 	border-top: 1px solid #fff;
 	background-color: #fafafa;
 	font-size: 14px;
-	margin-top:10px;
 }
 
 
@@ -123,11 +122,11 @@ body {
 .h_article_pic {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 12px;
-    padding-right: 12px;
+    margin-right: 0.12rem;
+    padding-right: 0.12rem;
     border-right: 1px solid #808080;
     width: 1.8rem;
-    margin-top: -2px;
+    margin-top: -0.02;
 }
 .h_article_bg {
     width:0.3rem;
@@ -187,15 +186,15 @@ body {
 }
 
 .h_module_h3 {
-    height: 50px;
-    line-height: 50px;
+    height: 1.06rem;
+    line-height: 1rem;
     display: block;
     text-align: center;
 }
 .h_module_h3 span.txt {
-    font-size: 16px;
+    font-size: 0.36rem;
     color: #333;
-    margin-right: 3px;
+    margin-right: 0.03rem;
     display: -inline-block;
     vertical-align: middle;
 }
@@ -243,7 +242,7 @@ body {
 	display:flex;
 }
 .cat_link{
-	padding-top: 15px;
+	padding-top: 0.15rem;
     width: 33.3%;
     /*display: inline-block;*/
     text-align: center;
@@ -253,18 +252,18 @@ body {
 	width: 100%;
 }
 .tit_inline{
-	padding: 0 5px;
-    height: 22px;
-    line-height: 22px;
+	padding: 0 0.08rem;
+    height: 0.46rem;
+    line-height: 0.46rem;
 	overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 .cat_link .price{
 	color: #ff3333;
-    height: 22px;
-    line-height: 22px;
-}
+    height: 0.46rem;
+    line-height: 0.46rem;
+} 
 
 
 

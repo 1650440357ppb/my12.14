@@ -63,8 +63,8 @@ body {
 #wrapper {
 	position: absolute;
 	z-index: 1;
-	top: 45px;
-	bottom: 48px;
+	top: 0.92rem;
+    bottom: 0.48rem;
 	left: 0;
 	width: 100%;
 	background: #ccc;
@@ -123,18 +123,18 @@ body {
     transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);
     transition-duration: 0ms;
     transform: translate(0px, 0px) translateZ(0px);
-    padding-left: 15px;
+    padding-left:0.3rem;
 	overflow:hidden;
 	
 }
 .list_box ul li{
-	height: 44px;
-    line-height: 44px;
-    font-size: 16px;
+	height: 0.94rem;
+    line-height: 0.94rem;
+    font-size: 0.36rem;
     color: #333;
-    margin-right: 25px;
+    margin-right: 0.25rem;
     float: left;
-    padding: 0 5px;
+    padding: 0 0.11rem;
    
 }
 .list_checked{
@@ -153,28 +153,28 @@ body .mui-bar{
 }
 .c_product_tit span {
     position: relative;
-    height: 50px;
-    line-height: 50px;
-    font-size: 16px;
+    height: 0.9rem;
+    line-height: 1rem;
+    font-size: 0.33rem;;
     display: inline-block;
 }
 .c_p_bg1 {
-    width: 58px;
-    height: 5px;
+    width: 1.2rem;
+    height: 0.05rem;
     background: url(../img/c_p1.png) no-repeat;
     background-size: 100%;
     position: absolute;
-    top: 22px;
-    left: -68px;
+    top: 0.5rem;
+    left: -1.4rem;
 }
 .c_p_bg2 {
-    width: 58px;
-    height: 5px;
+    width: 1.2rem;
+    height: 0.05rem;
     background: url(../img/c_p2.png) no-repeat;
     background-size: 100%;
     position: absolute;
-    top: 22px;
-    right: -68px;
+    top: 0.5rem;
+    right: -1.4rem;
 }
 .list_pic{
 	text-align: center;
@@ -186,8 +186,8 @@ body .mui-bar{
     background: #fff;
     float: left;
     display: inline;
-    margin-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 0.2rem;
+    padding-bottom: 0.2rem;
     position: relative;
 }
 .list_pic_link img{
@@ -196,17 +196,17 @@ body .mui-bar{
 }
 
 .list_pic_link .tit {
-    padding: 0 10px;
-    font-size: 14px;
-    margin-top: 5px;
-    line-height: 20px;
-    height: 20px;
+    padding: 0 0.2rem;
+    font-size: 0.31rem;
+    margin-top: 0.05rem;
+    line-height: 0.28rem;
+    height: 0.4rem;
 }
 .list_pic_link .price {
     color: #ff3333;
-    font-size: 14px;
-    line-height: 20px;
-    height: 20px;
+    font-size: 0.3rem;
+    line-height: 0.6rem;
+        height: 0.4rem;
 }
 .inaline {
     overflow: hidden;
