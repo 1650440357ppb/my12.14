@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+	<meta name="format-detection" content="telephone=no, email=no" />
+	
+    <title>bycar</title>
+   
+    <script src="js/mui.min.js"></script>
+    <script type="text/javascript" src="js/iscroll-zoom.js"></script>
+    <script src="js/resize.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/iconfont.css" />
+    <link rel="stylesheet" href="css/gouwuche.css" />
+    <link rel="stylesheet" href="css/base.css" />
+   
+   
+	<script type="text/javascript">
+	var myScroll;
+	
+	function loaded () {
+		mui.init();
+		myScroll = new IScroll('#wrapper', { mouseWheel: true });
+	}
+	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	
+	
+	</script>
+    
+    
+</head>
+<body onload="loaded()">
+	<header class="mui-bar mui-bar-nav" id="header">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">
+	    	<!--<span class="active">商品</span>-->
+	    	<span>购物车</span>
+	        <!--<span>评价</span>-->
+	    </h1>
+	    <span class="edit">编辑</span>
+	</header>
+<div id="wrapper">
+	<div id="scroller">
+		<ul>
+			<!--<li style="border:0">
+				
+				<span class="iconfont icon-shangjiacheyuan"></span>
+			</li>-->
+			<li class="price_message">
+				<div class="priceBox">
+					<span class="iconfont icon-roundcheck"></span>
+					<span class="iconfont icon-shangjiacheyuan"></span>
+					<span>必然眼镜</span>
+					<span class="edit1">编辑</span>
+				</div>
+				<div class="big_box">
+					<span class="iconfont icon-roundcheck"></span>
+					<div class="imgbox1">
+						<img src="img/img_car.jpg" alt="" />
+					</div>
+					
+					<div class="txt_message" id="mm">
+						<span>太阳镜系列-</span>
+						<p>Pilot(BGS6001)</p>
+						<!--<p>类型</p>-->
+						<span class="leixing">类型：</span><span class="leixing">近视</span>
+						<p class="danjia">￥249×</p>
+						<!--<span>1</span>-->
+						<p>1</p>
+					</div>
+				</div>
+				
+			</li>
+			
+			<li class="price_message">
+				<div class="priceBox">
+					<span class="iconfont icon-roundcheck"></span>
+					<span class="iconfont icon-shangjiacheyuan"></span>
+					<span>必然眼镜</span>
+					<span class="edit1">编辑</span>
+				</div>
+				<div class="big_box">
+					<span class="iconfont icon-roundcheck"></span>
+					<div class="imgbox1">
+						<img src="img/img_car.jpg" alt="" />
+					</div>
+					
+					<div class="txt_message" id="mm">
+						<span>太阳镜系列-</span>
+						<p>Pilot(BGS6001)</p>
+						<!--<p>类型</p>-->
+						<span class="leixing">类型：</span><span class="leixing">近视</span>
+						<p class="danjia">￥249×</p>
+						<!--<span>1</span>-->
+						<p>1</p>
+					</div>
+				</div>
+				
+			</li>
+			
+			
+			
+		</ul>
+	</div>
+</div>
+<div class="jiesuan">
+	<span class="iconfont icon-roundcheck"></span>
+	<span>全选</span>
+	<span>合计</span>
+	<span id="money" style="color:red">￥498</span>
+	<div>结算</div>
+</div>
+<nav class="mui-bar mui-bar-tab">
+	    <a class="mui-tab-item " href="index.html">
+	        <span class="mui-icon mui-icon-home"></span>
+	        <span class="mui-tab-label">首页</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon mui-icon-list"></span>
+	        <span class="mui-tab-label">分类</span>
+	    </a>
+	    <a class="mui-tab-item mui-active">
+	        <span class="mui-icon iconfont icon-cart"></span>
+	        <span class="mui-tab-label">购物车</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon iconfont icon-wode4"></span>
+	        <span class="mui-tab-label">我的必要</span>
+	    </a>
+</nav>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+	<meta name="format-detection" content="telephone=no, email=no" />
+	
+    <title>show</title>
+   
+    <script src="js/mui.min.js"></script>
+    <script type="text/javascript" src="js/iscroll-zoom.js"></script>
+    <script src="js/resize.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/iconfont.css" />
+    <link rel="stylesheet" href="css/show.css" />
+    <link rel="stylesheet" href="css/base.css" />
+   
+   
+	<script type="text/javascript">
+	var myScroll;
+	
+	function loaded () {
+		mui.init();
+		myScroll = new IScroll('#wrapper', { mouseWheel: true });
+	}
+	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	
+	
+	</script>
+    
+    
+</head>
+<body onload="loaded()">
+	<header class="mui-bar mui-bar-nav" id="header">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">
+	    	<span class="active">商品</span>
+	    	<span>详情</span>
+	        <span>评价</span>
+	    </h1>
+	    <span class="iconfont icon-ttpodicon"></span>
+	</header>
+<div id="wrapper">
+	<div id="scroller">
+		<ul>
+			<li style="border:0">
+				<div class="imgBox">
+					<span></span>
+					<div class="color">
+						<span class="iconfont icon-huanyanse1"></span>
+						<span class="txt1">颜色</span>
+					</div>
+					<div class="more">
+						<span class="iconfont icon-ttpodicon"></span>
+						<span class="txt1">更多</span>
+					</div>
+					<div class="try">
+						<span class="iconfont icon-yanjing2"></span>
+						<span class="txt1">试戴</span>
+					</div>
+				</div>
+				
+			</li>
+			<li class="price_message">
+				<div class="priceBox">
+					<span class="bigRed">￥249</span>
+					<span class="shengchan">生产周期:</span>
+					<span>10天</span>
+					<div class="shangjia">
+						<span class="iconfont icon-shangjiacheyuan"></span>
+						<span class="t">商家</span>
+					</div>
+					<p class="xinghao">太阳镜系列-pilot(BGS6001)</p>
+				</div>
+			</li>
+			
+			<li class="tuihuan">
+				<div class="tuihuan_box">
+					<span class="iconfont icon-roundcheck"></span>
+					<span class="tuihuan_txt">7天无忧退换</span>
+					
+					<span class="iconfont icon-roundcheck"></span>
+					<span class="tuihuan_txt">先行赔付</span>
+					
+					<span class="iconfont icon-roundcheck"></span>
+					<span class="tuihuan_txt">超时赔偿</span>
+				</div>
+			</li>
+			<li class="chakan">
+				<span>支持近视1200度~远视800度</span>
+				<span>查看详情</span>
+				<span class="iconfont icon-right"></span>
+			</li>
+			<li class="chakan">
+				<span>商品评价</span>
+				<span style="margin-left: 0.4rem;">953人已评价</span>
+				<span class="iconfont icon-right"></span>
+			</li>
+			
+			<li class="chakan">
+				<span>支持近视1200度~远视800度</span>
+				<span>查看详情</span>
+				<span class="iconfont icon-right"></span>
+			</li>
+			<li class="chakan">
+				<span>商品评价</span>
+				<span style="margin-left: 0.4rem;">953人已评价</span>
+				<span class="iconfont icon-right"></span>
+			</li>
+			
+		</ul>
+	</div>
+</div>
+	
+<nav class="mui-bar mui-bar-tab" >
+	    <!--<a class="mui-tab-item ">
+	        <span class="mui-icon mui-icon-home"></span>
+	        <span class="mui-tab-label">首页</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon iconfont icon-feilei"></span>
+	        <span class="mui-tab-label">分类</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon iconfont icon-cart"></span>
+	        <span class="mui-tab-label">购物车</span>
+	    </a>
+	    <a class="mui-tab-item mui-activess">
+	        <span class="mui-icon iconfont icon-wode4"></span>
+	        <span class="mui-tab-label">我的必要</span>
+	    </a>-->
+	    <a class="mui-tab-item" style="color:#733D87">
+	        <span class="mui-icon iconfont icon-kefu"></span>
+	        <span class="mui-tab-label">客服</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon iconfont icon-cart"></span>
+	        <span class="mui-tab-label">购物车</span>
+	    </a>
+	    <a class="mui-tab-item" style="color:#fff">
+	        <!--<span class="mui-icon iconfont icon-cart"></span>-->
+	        <p class="" style="font-size: 0.22rem;">支持近视1200度~远视600度</p>
+	        <span class="mui-tab-label">选择度数并购买</span>
+	    </a>
+</nav>
+</body>
+</html>

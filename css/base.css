@@ -1,0 +1,37 @@
+body{
+	font-family: haettenschweiler;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select: none;
+	margin:0;padding:0;
+}
+button{
+	-webkit-appearance: none;
+}
+a,button{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+p{
+	max-height: 99999999px;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	-ms-touch-action: none;
+}
+body,ul,li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+}
+body {
+	font-size: 12px;
+	font-family: ubuntu, helvetica, arial;
+	overflow: hidden; /* this is important to prevent the whole page to bounce */
+	background-color: #f5f5f5;
+}
+

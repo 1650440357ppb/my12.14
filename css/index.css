@@ -1,0 +1,286 @@
+/*初始设置*/
+body{
+	font-family: haettenschweiler;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select: none;
+	margin:0;padding:0;
+}
+button{
+	-webkit-appearance: none;
+}
+a,button{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+p{
+	max-height: 99999999px;
+}
+
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	-ms-touch-action: none;
+}
+body,ul,li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body {
+	font-size: 12px;
+	font-family: ubuntu, helvetica, arial;
+	overflow: hidden; /* this is important to prevent the whole page to bounce */
+	background-color: #f5f5f5;
+}
+#header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background: #fff;
+	padding: 0;
+	/*color: #eee;*/
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+#footer {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 48px;
+	background: #444;
+	padding: 0;
+	border-top: 1px solid #444;
+}
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 45px;
+	bottom: 48px;
+	left: 0;
+	width: 100%;
+	background: #ccc;
+	overflow: hidden;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+#scroller ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+}
+#scroller li {
+	/*padding: 0 10px;*/
+	/*height: 40px;*/
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	background-color: #fafafa;
+	font-size: 14px;
+	margin-top:10px;
+}
+
+
+.h_article_tit {
+    font-size:0.3rem;
+    color: #808080;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 6.4rem;
+    float:left;
+}
+.h_article_pic {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+    padding-right: 12px;
+    border-right: 1px solid #808080;
+    width: 1.8rem;
+    margin-top: -2px;
+}
+.h_article_bg {
+    width:0.3rem;
+    /*position: relative;*/
+    float:right;
+}
+.h_article_bg span {
+    /*width:0.18rem;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0.15rem;
+    right: 0;*/
+    font-size: 0.4rem;
+   /* color: #808080;*/
+}
+#scroller ul>li:nth-child(2){
+	padding:0 0.22rem;
+	text-align: left;
+	height: 42px;
+}
+
+/*mokuai*/
+.boxShadow{
+	box-shadow: 1px 1px 5px rgba(7,0,2,.2);
+	-webkit-box-shadow: 1px 1px 5px rgba(7,0,2,.2);
+	margin-top: 0.2rem;
+	/*padding:12px 0;*/
+	position: relative;
+	text-align: left;
+}
+.bbox{
+	box-sizing: border-box;
+	display:block;
+}
+.item1{
+	width: 57.7%;
+    margin-right: 5px;
+}
+
+.bbox img{
+	display:block;
+	width:100%;
+}
+.item2{
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 41%;
+    /*padding:12px 0;*/
+}
+.item3{
+	position: absolute;
+    bottom:0;
+    right: 0;
+    width:41%;
+}
+
+.h_module_h3 {
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+}
+.h_module_h3 span.txt {
+    font-size: 16px;
+    color: #333;
+    margin-right: 3px;
+    display: -inline-block;
+    vertical-align: middle;
+}
+#scroller ul>li:nth-child(3){
+	margin-top:10px;
+}
+.h_module_h3 .bg{
+	color:#333;
+}
+.h_bigimg_box {
+    display: block;
+    position: relative;
+}
+
+.h_bigimg_box img{
+	display: block;
+	width: 100%;
+}
+
+.h_sup_box {
+    border: 3px solid #fff;
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -27.5%;
+    margin-top: -35px;
+}
+.h_sup_con {
+    background: #fff;
+    margin: 1px;
+    padding: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+.h_sup_con div {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333;
+    overflow: hidden;
+}
+.cat_list{
+	text-align: left;
+	display:flex;
+}
+.cat_link{
+	padding-top: 15px;
+    width: 33.3%;
+    /*display: inline-block;*/
+    text-align: center;
+}
+.cat_link img{
+	display: block;
+	width: 100%;
+}
+.tit_inline{
+	padding: 0 5px;
+    height: 22px;
+    line-height: 22px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.cat_link .price{
+	color: #ff3333;
+    height: 22px;
+    line-height: 22px;
+}
+
+
+
+/*di*/
+.icon-feilei:before{
+	font-size:0.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
