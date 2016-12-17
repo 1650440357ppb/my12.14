@@ -1,0 +1,197 @@
+html,body{
+			width:100%;height:100%;
+			margin:0;padding:0;
+		}
+		.swiper-container{
+			width:100%;height:100%;
+		}
+		.swiper-slide{
+			width:100%;height:100%;
+			position:relative;
+		}
+		.swiper-slide:nth-child(1){
+			/*background: rgba(16, 0, 14, 0.78);*/
+			background-image: url(../img/yd_bg.png);
+			background-size: 100%;
+		}
+		.swiper-slide:nth-child(2){
+			background: #ff7271;
+		}
+		.swiper-slide:nth-child(3){
+			background:url(../img/yd_bg3.png);
+			background-size: 100%;
+		}
+		.cloud{
+			position: absolute;
+			top: 2.78rem;
+            left: 0.76rem;
+            z-index:99;
+		}
+		.phone{
+			position: absolute;
+			left: 0.54rem;
+            top: 9rem;
+		}
+		.phone1{
+			position: absolute;
+			left: 2.8rem;
+            top: 4.4rem;
+		}
+		.phone1:nth-child(2){
+			position: absolute;
+			left: 2.4rem;
+            top: 4.0rem;
+		}
+		.phone1:nth-child(3){
+			position: absolute;
+			left: 2rem;
+            top: 3.6rem;
+		}
+		.phone1:nth-child(4){
+			position: absolute;
+			left: 1.6rem;
+            top: 3.2rem;
+		}
+		.phone1:nth-child(5){
+			position: absolute;
+			left: 1.5rem;
+            top: 3.2rem;
+		}
+		.phone1 img{
+			width: 3.4rem;
+            height: 6rem;
+		}
+		.tree{
+			position: absolute;
+			left: 1.3rem;
+            top: 3.1rem;
+		}
+		.cloud img{
+			    width: 6rem;
+                height: 7.7rem;
+			
+		}
+		.phone img{
+			width:1.84rem;height: 3.47rem;
+			width: 6.25rem;
+            height: 2.5rem;
+		}
+		.tree img{
+			    width: 5rem;
+                height: 1rem;
+		}
+		.tuijian{
+			position: absolute;
+			left: 2rem;
+			top: 10.3rem;
+            color: rgba(239, 30, 125, 0.57);
+			font-size: 0.9rem;
+		}
+		.tuijian a{
+			color: rgba(239, 30, 125, 0.57);
+            text-decoration: none;
+		}
+		.text1{
+			position: absolute;
+			left: 0.3rem;
+			top: 10.8rem;
+			color:#ADADAD;
+			font-size: 0.5rem;
+			
+		}
+	    .text1 img{
+			width: 100%;
+		}
+		.txt2{
+			font-size: 0.28rem;
+		    position: absolute;
+		    left: 1.5rem;
+		    top: 1.74rem;
+		}
+		.txt3{
+			font-size: 0.28rem;
+			position: absolute;
+			left: 1.5rem;
+			top:  2.3rem;
+		}
+		.log{
+			width:2.78rem;height:0.85rem;
+			background: #EC4E42;
+			border-radius: 0.12rem;
+			position: absolute;
+			left: 0.7rem;
+			top: 11.49rem;
+			text-align: center;
+            line-height: 0.5rem;
+		}
+		.tiyan{
+			box-sizing: border-box;
+			width:2.78rem;height:0.85rem;
+			border:0.05rem solid #EC4E42;
+			border-radius: 0.12rem;
+			position: absolute;
+			left: 4.0rem;
+			top: 11.49rem;
+			text-align: center;
+            line-height: 0.4rem;
+		}
+		.log span{
+			color:#fff;
+			font-size: 0.4rem;
+		}
+		.tiyan span{
+			color:#EC4E42;
+			font-size: 0.4rem;
+		}
+		
+		.fensi{
+			position: absolute;
+		    left: 0.8rem;
+		    top: 0.2rem;
+		}
+		.fensi img{
+			width: 90%;
+            height: 91%;
+		} 
+		.listen{
+			position: absolute;
+			left: 0.92rem;
+			top: 2.2rem;
+			color:#4A4A4A;
+			font-size: 0.5rem;
+		}
+		.love{
+			position: absolute;
+			right: 0.92rem;
+			top: 2.2rem;
+			color:#4A4A4A;
+			font-size: 0.5rem;
+		}
+		.phone2{
+			position: absolute;
+			left: 0.58rem;
+            top: 4.2rem;
+		} 
+		.phone2 img{
+			width: 6.4rem;
+            height: 8.4rem;
+		}
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
